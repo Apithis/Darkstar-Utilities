@@ -1,11 +1,9 @@
 [![Mod Portal][shild-i-download]][mod-portal]
-<br>
-[![GitLab][shild-i-gitlab]][gitlab]
 
 <br />
 <div align="center">
   <a href="https://github.com/Apithis/Darkstar-Utilities/">
-    <img src="https://github.com/Apithis/Darkstar-Utilities/blob/master/thumbnail.png" alt="Logo" width="120" height="120">
+    <img align="center" src="https://github.com/Apithis/Darkstar-Utilities/blob/master/thumbnail.png" alt="Logo" width="120" height="120">
   </a>
 
   <h3 align="center">Darkstar Utilities</h3>
