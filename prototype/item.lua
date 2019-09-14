@@ -346,7 +346,7 @@ data:extend(
 	icon_size = 32,
 
     subgroup = "filters",
-    order = "a[stone-furnace]",
+    order = "-a[stone-furnace]",
     place_result = "air-filter",
     stack_size = 500
   },
@@ -358,7 +358,7 @@ data:extend(
 	icon_size = 32,
 
     subgroup = "filters",
-    order = "b[stone-furnace]",
+    order = "-b[stone-furnace]",
     place_result = "air-filter-mk2",
     stack_size = 500
   },
@@ -370,7 +370,7 @@ data:extend(
 	icon_size = 32,
 
     subgroup = "filters",
-    order = "c[stone-furnace]",
+    order = "-c[stone-furnace]",
     place_result = "air-filter-mk3",
     stack_size = 500
   },
@@ -382,7 +382,7 @@ data:extend(
 	icon_size = 32,
 
     subgroup = "filters",
-    order = "c[stone-furnace]",
+    order = "-d[stone-furnace]",
     place_result = "air-filter-mk4",
     stack_size = 500
   },
@@ -394,7 +394,7 @@ data:extend(
 	icon_size = 32,
 
     subgroup = "filters",
-    order = "c[stone-furnace]",
+    order = "-e[stone-furnace]",
     place_result = "air-filter-mk5",
     stack_size = 500
   },
@@ -417,7 +417,18 @@ data:extend(
 	icon_size = 32,
 
     subgroup = "filters",
-    order = "d[stone-furnace]",
+    order = "f[stone-furnace]",
+    stack_size = 500
+  },
+
+  {
+    type = "item",
+    name = "sand-filter-charge-x1",
+    icon = "__Darkstar_utilities__/graphics/icons/sand-filter1.png",
+	icon_size = 32,
+
+    subgroup = "filters",
+    order = "g[stone-furnace]",
     stack_size = 500
   },
 
@@ -428,7 +439,18 @@ data:extend(
 	icon_size = 32,
 
     subgroup = "filters",
-    order = "e[stone-furnace]",
+    order = "h[stone-furnace]",
+    stack_size = 500
+  },
+
+  {
+    type = "item",
+    name = "sand-filter-charge-x2",
+    icon = "__Darkstar_utilities__/graphics/icons/sand-filter2.png",
+	icon_size = 32,
+
+    subgroup = "filters",
+    order = "i[stone-furnace]",
     stack_size = 500
   },
 
@@ -439,7 +461,18 @@ data:extend(
 	icon_size = 32,
 
     subgroup = "filters",
-    order = "f[stone-furnace]",
+    order = "j[stone-furnace]",
+    stack_size = 500
+  },
+
+  {
+    type = "item",
+    name = "sand-filter-charge-x3",
+    icon = "__Darkstar_utilities__/graphics/icons/sand-filter3.png",
+	icon_size = 32,
+
+    subgroup = "filters",
+    order = "k[stone-furnace]",
     stack_size = 500
   },
 
@@ -450,7 +483,18 @@ data:extend(
 	icon_size = 32,
 
     subgroup = "filters",
-    order = "f[stone-furnace]",
+    order = "l[stone-furnace]",
+    stack_size = 500
+  },
+
+  {
+    type = "item",
+    name = "sand-filter-charge-x4",
+    icon = "__Darkstar_utilities__/graphics/icons/sand-filter4.png",
+	icon_size = 32,
+
+    subgroup = "filters",
+    order = "m[stone-furnace]",
     stack_size = 500
   },
 
@@ -461,7 +505,7 @@ data:extend(
 	icon_size = 32,
 
     subgroup = "filters",
-    order = "f[stone-furnace]",
+    order = "n[stone-furnace]",
     stack_size = 500
   },
 
