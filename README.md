@@ -13,9 +13,9 @@
     <br />
     <a href="https://mods.factorio.com/mod/Darkstar_utilities">Mod Portal</a>
     ·
-    <a href="/issues/new">Report Bug</a>
+    <a href="https://github.com/Apithis/Darkstar-Utilities/issues/new">Report Bug</a>
     ·
-    <a href="/issues/new">Request Feature</a>
+    <a href="https://github.com/Apithis/Darkstar-Utilities/issues/new">Request Feature</a>
   </p>
 </div>
 
