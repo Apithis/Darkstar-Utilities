@@ -9228,7 +9228,7 @@ default_output_signal = {type = "virtual", name = "signal-A"}
       usage_priority = "secondary-input"
     },
     vehicle_impact_sound =  { filename = "__base__/sound/car-metal-impact.ogg", volume = 0.65 },
-    energy_usage = "950MW",
+    energy_usage = "500GW",
     distribution_effectivity = 7,
     module_specification =
     {
@@ -9356,7 +9356,7 @@ default_output_signal = {type = "virtual", name = "signal-A"}
       usage_priority = "secondary-input"
     },
     vehicle_impact_sound =  { filename = "__base__/sound/car-metal-impact.ogg", volume = 0.65 },
-    energy_usage = "15GW",
+    energy_usage = "850GW",
     distribution_effectivity = 5,
     module_specification =
     {
@@ -13737,7 +13737,7 @@ default_output_signal = {type = "virtual", name = "signal-A"}
       {
         sheet =
         {
-          filename = "__base__/graphics/entity/underground-belt/underground-terra2.png",
+          filename = "__Darkstar_utilities__/graphics/entity/belt/underground-terra2.png",
           priority = "extra-high",
           width = 96,
           height = 96,

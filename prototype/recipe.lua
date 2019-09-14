@@ -1768,9 +1768,22 @@ data:extend(
 		ingredients =
 		{
 			 {"empty-filter", 1},
-			 {"coal", 5},
+			 {"coal", 1},
 		},
 		result="air-filter-charge-x1"
+	},
+	
+	{
+		type="recipe",
+		name="sand-filter-charge-x1",
+		enabled="false",
+		ingredients =
+		{
+			 {"empty-filter", 1},
+			 {"coal", 1},
+			 {"sand", 10},
+		},
+		result="sand-filter-charge-x1"
     },
 
 	{
@@ -1780,9 +1793,22 @@ data:extend(
 		ingredients =
 		{
 			 {"empty-filter", 2},
-			 {"coal", 15},
+			 {"coal", 5},
 		},
 		result="air-filter-charge-x2",
+	},
+	
+	{
+		type="recipe",
+		name="sand-filter-charge-x2",
+		enabled="false",
+		ingredients =
+		{
+			{"empty-filter", 2},
+			{"coal", 5},
+			 {"sand", 20},
+		},
+		result="sand-filter-charge-x2"
     },
 
 	{
@@ -1792,9 +1818,22 @@ data:extend(
 		ingredients =
 		{
 			 {"empty-filter", 3},
-			 {"coal", 30},
+			 {"coal", 10},
 		},
 		result="air-filter-charge-x3",
+	},
+	
+	{
+		type="recipe",
+		name="sand-filter-charge-x3",
+		enabled="false",
+		ingredients =
+		{
+			{"empty-filter", 3},
+			{"coal", 10},
+			 {"sand", 30},
+		},
+		result="sand-filter-charge-x3"
     },
 
 	{
@@ -1804,10 +1843,23 @@ data:extend(
 		ingredients =
 		{
 			 {"empty-filter", 30},
-			 {"coal", 100},
+			 {"coal", 25},
 		},
 		result="air-filter-charge-x4",
 	},
+
+	{
+		type="recipe",
+		name="sand-filter-charge-x4",
+		enabled="false",
+		ingredients =
+		{
+			{"empty-filter", 30},
+			{"coal", 25},
+			 {"sand", 40},
+		},
+		result="sand-filter-charge-x4"
+    },
 	
 	{
 		type="recipe",
@@ -1819,7 +1871,7 @@ data:extend(
 			 {"brain", 1},
 		},
 		result="air-filter-charge-x5",
-    },
+	},
 	
 	{
 		type="recipe",
@@ -2930,6 +2982,17 @@ data:extend(
         energy_required = 8,
         ingredients = {{"air-filter-charge-x1", 1}},
         result = "empty-filter",
+	},
+	
+	{
+        type = "recipe",
+        name = "sand-filter-charge-mk1",
+        category = "filters",
+		enabled = true,
+		hidden = true,
+        energy_required = 16,
+        ingredients = {{"sand-filter-charge-x1", 1}},
+        result = "empty-filter",
     },
 
 	   {
@@ -2940,6 +3003,18 @@ data:extend(
 		hidden = true,
         energy_required = 64,
         ingredients = {{"air-filter-charge-x2", 1}},
+        result = "empty-filter",
+		result_count = "2"
+	},
+	
+	{
+        type = "recipe",
+        name = "sand-filter-charge-mk2",
+        category = "filters",
+		enabled = true,
+		hidden = true,
+        energy_required = 128,
+        ingredients = {{"sand-filter-charge-x2", 1}},
         result = "empty-filter",
 		result_count = "2"
     },
@@ -2954,6 +3029,18 @@ data:extend(
         ingredients = {{"air-filter-charge-x3", 1}},
         result = "empty-filter",
 		result_count = "3"
+	},
+	
+	{
+        type = "recipe",
+        name = "sand-filter-charge-mk3",
+        category = "filters",
+		enabled = true,
+		hidden = true,
+        energy_required = 256,
+        ingredients = {{"sand-filter-charge-x3", 1}},
+        result = "empty-filter",
+		result_count = "3"
     },
 
 	{
@@ -2964,6 +3051,18 @@ data:extend(
 		hidden = true,
         energy_required = 256,
         ingredients = {{"air-filter-charge-x4", 1}},
+        result = "empty-filter",
+		result_count = "30"
+	},
+
+	{
+        type = "recipe",
+        name = "sand-filter-charge-mk4",
+        category = "filters",
+		enabled = true,
+		hidden = true,
+        energy_required = 512,
+        ingredients = {{"sand-filter-charge-x4", 1}},
         result = "empty-filter",
 		result_count = "30"
 	},

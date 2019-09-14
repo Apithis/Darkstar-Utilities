@@ -172,20 +172,8 @@ data:extend(
 				type = "unlock-recipe",
 				recipe = "air-filter",
 			},
-			{
-				type = "unlock-recipe",
-				recipe = "air-filter-charge-x1",
-			},
-			{
-				type = "unlock-recipe",
-				recipe = "empty-filter",
-			},
-			{
-				type = "unlock-recipe",
-				recipe = "air-filter-charge-mk1",
-			},
 		},
-		prerequisites = {},
+		prerequisites = {"steel-processing", "biodome"},
 		unit =
 		{
 			count = 75,
@@ -209,14 +197,6 @@ data:extend(
 				type = "unlock-recipe",
 				recipe = "air-filter-mk2",
 			},
-			{
-				type = "unlock-recipe",
-				recipe = "air-filter-charge-x2",
-			},
-		    {
-				type = "unlock-recipe",
-				recipe = "air-filter-charge-mk2",
-			},
 		},
 		prerequisites = {"air-cleaning"},
 		unit =
@@ -226,7 +206,6 @@ data:extend(
 			{
 				{"automation-science-pack", 1},
 				{"logistic-science-pack", 1},
-				{"chemical-science-pack", 1},
 		        },
 				time = 20
 		},
@@ -244,14 +223,6 @@ data:extend(
 				type = "unlock-recipe",
 				recipe = "air-filter-mk3",
 			},
-			{
-				type = "unlock-recipe",
-				recipe = "air-filter-charge-x3",
-			},
-			{
-				type = "unlock-recipe",
-				recipe = "air-filter-charge-mk3",
-			},
 		},
 		prerequisites = {"air-cleaning-mk2"},
 		unit =
@@ -262,7 +233,6 @@ data:extend(
 				{"automation-science-pack", 1},
 				{"logistic-science-pack", 1},
 				{"chemical-science-pack", 1},
-				{"utility-science-pack", 1},
 		        },
 				time = 35
 		},
@@ -279,14 +249,6 @@ data:extend(
 			{
 				type = "unlock-recipe",
 				recipe = "air-filter-mk4",
-			},
-			{
-				type = "unlock-recipe",
-				recipe = "air-filter-charge-x4",
-			},
-			{
-				type = "unlock-recipe",
-				recipe = "air-filter-charge-mk4",
 			},
 		},
 		prerequisites = {"air-cleaning-mk3"},
@@ -330,6 +292,248 @@ data:extend(
 				{"production-science-pack", 1},
 		        },
 				time = 65
+		},
+		order = "c-a"
+	},
+
+	{
+		type = "technology",
+		name = "air-filters",
+		icon = "__Darkstar_utilities__/graphics/research/filters1.png",
+		icon_size = 128,
+		effects =
+		{
+			{
+				type = "unlock-recipe",
+				recipe = "air-filter-charge-x1",
+			},
+			{
+				type = "unlock-recipe",
+				recipe = "empty-filter",
+			},
+			{
+				type = "unlock-recipe",
+				recipe = "air-filter-charge-mk1",
+			},
+		},
+		prerequisites = {"steel-processing", "air-cleaning"},
+		unit =
+		{
+			count = 25,
+			ingredients =
+			{
+				{"automation-science-pack", 1},
+		        },
+				time = 15
+		},
+		order = "c-a"
+	},
+
+	{
+		type = "technology",
+		name = "sand-filters",
+		icon = "__Darkstar_utilities__/graphics/research/sand-filters1.png",
+		icon_size = 128,
+		effects =
+		{
+			{
+				type = "unlock-recipe",
+				recipe = "sand-filter-charge-x1",
+			},
+			{
+				type = "unlock-recipe",
+				recipe = "sand-filter-charge-mk1",
+			},
+		},
+		prerequisites = {"air-filters"},
+		unit =
+		{
+			count = 75,
+			ingredients =
+			{
+				{"automation-science-pack", 1},
+		        },
+				time = 30
+		},
+		order = "c-a"
+	},
+
+	{
+		type = "technology",
+		name = "air-filters-mk2",
+		icon = "__Darkstar_utilities__/graphics/research/filters2.png",
+		icon_size = 128,
+		effects =
+		{
+			{
+				type = "unlock-recipe",
+				recipe = "air-filter-charge-x2",
+			},
+		    {
+				type = "unlock-recipe",
+				recipe = "air-filter-charge-mk2",
+			},
+		},
+		prerequisites = {"air-filters"},
+		unit =
+		{
+			count = 50,
+			ingredients =
+			{
+				{"automation-science-pack", 1},
+		        },
+				time = 20
+		},
+		order = "c-a"
+	},
+
+	{
+		type = "technology",
+		name = "sand-filters-mk2",
+		icon = "__Darkstar_utilities__/graphics/research/sand-filters2.png",
+		icon_size = 128,
+		effects =
+		{
+			{
+				type = "unlock-recipe",
+				recipe = "sand-filter-charge-x2",
+			},
+			{
+				type = "unlock-recipe",
+				recipe = "sand-filter-charge-mk2",
+			},
+		},
+		prerequisites = {"air-filters-mk2", "sand-filters"},
+		unit =
+		{
+			count = 150,
+			ingredients =
+			{
+				{"automation-science-pack", 1},
+		        },
+				time = 30
+		},
+		order = "c-a"
+	},
+
+	{
+		type = "technology",
+		name = "air-filters-mk3",
+		icon = "__Darkstar_utilities__/graphics/research/filters3.png",
+		icon_size = 128,
+		effects =
+		{
+			{
+				type = "unlock-recipe",
+				recipe = "air-filter-charge-x3",
+			},
+		    {
+				type = "unlock-recipe",
+				recipe = "air-filter-charge-mk3",
+			},
+		},
+		prerequisites = {"air-filters-mk2"},
+		unit =
+		{
+			count = 75,
+			ingredients =
+			{
+				{"automation-science-pack", 1},
+				{"logistic-science-pack", 1},
+		        },
+				time = 30
+		},
+		order = "c-a"
+	},
+
+	{
+		type = "technology",
+		name = "sand-filters-mk3",
+		icon = "__Darkstar_utilities__/graphics/research/sand-filters3.png",
+		icon_size = 128,
+		effects =
+		{
+			{
+				type = "unlock-recipe",
+				recipe = "sand-filter-charge-x3",
+			},
+			{
+				type = "unlock-recipe",
+				recipe = "sand-filter-charge-mk3",
+			},
+		},
+		prerequisites = {"air-filters-mk3", "sand-filters-mk2"},
+		unit =
+		{
+			count = 225,
+			ingredients =
+			{
+				{"automation-science-pack", 1},
+				{"logistic-science-pack", 1},
+		        },
+				time = 50
+		},
+		order = "c-a"
+	},
+
+	{
+		type = "technology",
+		name = "air-filters-mk4",
+		icon = "__Darkstar_utilities__/graphics/research/filters4.png",
+		icon_size = 128,
+		effects =
+		{
+			{
+				type = "unlock-recipe",
+				recipe = "air-filter-charge-x4",
+			},
+		    {
+				type = "unlock-recipe",
+				recipe = "air-filter-charge-mk4",
+			},
+		},
+		prerequisites = {"air-filters-mk3"},
+		unit =
+		{
+			count = 150,
+			ingredients =
+			{
+				{"automation-science-pack", 1},
+				{"logistic-science-pack", 1},
+				{ "chemical-science-pack", 1},
+		        },
+				time = 50
+		},
+		order = "c-a"
+	},
+
+	{
+		type = "technology",
+		name = "sand-filters-mk4",
+		icon = "__Darkstar_utilities__/graphics/research/sand-filters4.png",
+		icon_size = 128,
+		effects =
+		{
+			{
+				type = "unlock-recipe",
+				recipe = "sand-filter-charge-x4",
+			},
+			{
+				type = "unlock-recipe",
+				recipe = "sand-filter-charge-mk4",
+			},
+		},
+		prerequisites = {"air-filters-mk4", "sand-filters-mk3"},
+		unit =
+		{
+			count = 450,
+			ingredients =
+			{
+				{"automation-science-pack", 1},
+				{"logistic-science-pack", 1},
+				{ "chemical-science-pack", 1},
+		        },
+				time = 75
 		},
 		order = "c-a"
 	},

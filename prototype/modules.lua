@@ -426,6 +426,7 @@ data:extend(
     default_request_amount = 1,
     effect = { consumption = {bonus = -0.8}}
     },
+    
 	{
     type = "module",
     name = "productivity-module-4",
