@@ -44,7 +44,7 @@ This is a very large mod. file sizes inside this mod exceed what the game can re
 
 ### Installing
 
-Download the mod via the [mod portal][mod-portal] and place it in your mods folder (`%AppData%/Factorio/mods`)
+Download the mod via the [release pag](https://github.com/Apithis/Darkstar-Utilities/releases) or [mod portal][mod-portal] and place it in your mods folder (`%AppData%/Factorio/mods`)
 
 _For more information, see [Installing Mods][Installing-Mods] on the Factorio wiki._
 
