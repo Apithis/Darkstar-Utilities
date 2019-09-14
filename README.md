@@ -1,4 +1,8 @@
 [![Mod Portal][shild-i-download]][mod-portal]
+[![](https://img.shields.io/github/v/release/Apithis/Darkstar-Utilities?label=latest%20release&sort=semver&style=flat-square)][release]
+![](https://img.shields.io/github/release-date/Apithis/Darkstar-Utilities?label=latest%20release&style=flat-square)
+![](https://img.shields.io/github/repo-size/Apithis/Darkstar-Utilities?label=mod%20size&style=flat-square)
+[![](https://img.shields.io/github/contributors/Apithis/Darkstar-Utilities?style=flat-square)](https://github.com/Apithis/Darkstar-Utilities/graphs/contributors)
 
 <br />
 <div align="center">
@@ -33,10 +37,12 @@ Darkstar Aims to extend the playtime of the game to well over twice the standard
 
 **TURN GRAPHICS SETTINGS TO HIGH**
 
-Amount of items currently added = 320</br>
-Amount of entities currently added = 161</br>
-Amount of technology currently added = 115</br>
-Total Sum =593
+| Type | Amount |
+|---|---|
+| Amount of items currently added | 320 |
+| Amount of entities currently added | 161 |
+| Amount of technology currently added | 115 |
+| Total Sum | 593 |
 
 This mod was designed along with the Big Bags mod. Item recipes and Ammo amounts where balanced around the higher stack sizes given by Big Bags. Although this mod will work without Big Bags I do not suggest it, for many aspects will not work as intended.
 
@@ -44,7 +50,7 @@ This is a very large mod. file sizes inside this mod exceed what the game can re
 
 ### Installing
 
-Download the mod via the [mod portal][mod-portal] and place it in your mods folder (`%AppData%/Factorio/mods`)
+Download the mod via the [release pag][release] or [mod portal][mod-portal] and place it in your mods folder (`%AppData%/Factorio/mods`)
 
 _For more information, see [Installing Mods][Installing-Mods] on the Factorio wiki._
 
@@ -73,3 +79,4 @@ This project is licensed under the [MIT](https://opensource.org/licenses/MIT) li
 [github]: https://github.com/Apithis/Darkstar-Utilities
 [image]: https://mods-data.factorio.com/assets/9121a77c12bd087e70ebe0bb8b25a317472dfc4f.png
 [Installing-Mods]: https://wiki.factorio.com/index.php?title=Installing_Mods
+[release]: https://github.com/Apithis/Darkstar-Utilities/releases/latest
