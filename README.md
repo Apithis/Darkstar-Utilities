@@ -37,10 +37,12 @@ Darkstar Aims to extend the playtime of the game to well over twice the standard
 
 **TURN GRAPHICS SETTINGS TO HIGH**
 
-Amount of items currently added = 320</br>
-Amount of entities currently added = 161</br>
-Amount of technology currently added = 115</br>
-Total Sum =593
+| Type | Amount |
+|---|---|
+| Amount of items currently added | 320 |
+| Amount of entities currently added | 161 |
+| Amount of technology currently added | 115 |
+| Total Sum | 593 |
 
 This mod was designed along with the Big Bags mod. Item recipes and Ammo amounts where balanced around the higher stack sizes given by Big Bags. Although this mod will work without Big Bags I do not suggest it, for many aspects will not work as intended.
 
