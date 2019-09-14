@@ -1,0 +1,7 @@
+Thanks to:
+
+Azakir, for help with high res brick textures.
+
+Usafphoenix, for solving lag issues.
+
+Musical_Tanks, Without their mod Expanded Rocket Payloads I would have never figured out how to remove the rocket warnings.
