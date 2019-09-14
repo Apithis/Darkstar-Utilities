@@ -3,13 +3,13 @@
 <br />
 <div align="center">
   <a href="https://github.com/Apithis/Darkstar-Utilities/">
-    <img align="center" src="https://github.com/Apithis/Darkstar-Utilities/blob/master/thumbnail.png" alt="Logo" width="120" height="120">
+    <img align="center" src="https://github.com/Apithis/Darkstar-Utilities/blob/master/thumbnail.png" alt="Logo" width="180" height="180">
   </a>
 
   <h3 align="center">Darkstar Utilities</h3>
 
   <p align="center">
-    Adds speed trains for faster railway transport.
+    Propel yourself all the way from mining stone with your hands to ripping holes in reality.
     <br />
     <a href="https://mods.factorio.com/mod/Darkstar_utilities">Mod Portal</a>
     ·
@@ -27,9 +27,20 @@
 
 ## Getting Started
 
-Propel yourself all the way from mining stone with your hands to ripping holes in reality. Darkstar Aims to extend the playtime of the game to well over twice the standard. With extra features like Quarries and Ore Probes for mining in lands with no ores, or launching rockets to mine deep space materials. With 593 currently added features!
+Darkstar Aims to extend the playtime of the game to well over twice the standard. With extra features like Quarries and Ore Probes for mining in lands with no ores, or launching rockets to mine deep space materials. With 593 currently added features!
 
 ![][image]
+
+**TURN GRAPHICS SETTINGS TO HIGH**
+
+Amount of items currently added = 320</br>
+Amount of entities currently added = 161</br>
+Amount of technology currently added = 115</br>
+Total Sum =593
+
+This mod was designed along with the Big Bags mod. Item recipes and Ammo amounts where balanced around the higher stack sizes given by Big Bags. Although this mod will work without Big Bags I do not suggest it, for many aspects will not work as intended.
+
+This is a very large mod. file sizes inside this mod exceed what the game can render on normal graphics settings. TURN GRAPHICS SETTINGS TO HIGH. Currently, the low spec version of the mod will not be updated until later. Updating two versions of this mod at once requires more time than I have to give currently. Perhaps in the future I will once again update the low spec versions.
 
 ### Installing
 
@@ -60,5 +71,5 @@ This project is licensed under the [MIT](https://opensource.org/licenses/MIT) li
 [shild-i-gitlab]: https://img.shields.io/badge/Visit-GitLab-orange?style=flat-square
 [mod-portal]: https://mods.factorio.com/mod/Darkstar_utilities
 [github]: https://github.com/Apithis/Darkstar-Utilities
-[image]: /
+[image]: https://mods-data.factorio.com/assets/9121a77c12bd087e70ebe0bb8b25a317472dfc4f.png
 [Installing-Mods]: https://wiki.factorio.com/index.php?title=Installing_Mods
