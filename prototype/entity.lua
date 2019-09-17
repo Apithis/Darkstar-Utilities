@@ -695,7 +695,7 @@
       buffer_capacity = "1GJ",
       usage_priority = "primary-output",
       input_flow_limit = "0kW",
-      output_flow_limit = "350MW",
+      output_flow_limit = "850MW",
       render_no_power_icon = false
     },
     energy_production = "0kW",
@@ -743,7 +743,7 @@
       buffer_capacity = "7GJ",
       usage_priority = "primary-output",
       input_flow_limit = "0kW",
-      output_flow_limit = "1GW",
+      output_flow_limit = "5GW",
       render_no_power_icon = false
     },
     energy_production = "0kW",
@@ -791,7 +791,7 @@
       buffer_capacity = "24GJ",
       usage_priority = "primary-output",
       input_flow_limit = "0kW",
-      output_flow_limit = "25GW",
+      output_flow_limit = "50GW",
       render_no_power_icon = false
     },
     energy_production = "0kW",
@@ -839,7 +839,7 @@
       buffer_capacity = "9YJ",
       usage_priority = "primary-output",
       input_flow_limit = "0kW",
-      output_flow_limit = "2TW",
+      output_flow_limit = "15TW",
       render_no_power_icon = false
     },
     energy_production = "0kW",
@@ -3567,6 +3567,7 @@
     type = "mining-drill",
     name = "laser-miner",
     icon = "__Darkstar_utilities__/graphics/icons/laser-drill-icon1.png",
+    fast_replaceable_group = "mining-drill",
 	    icon_size = 32,
     flags = {"placeable-neutral", "player-creation"},
     minable = {mining_time = 1, result = "laser-miner"},
@@ -3574,7 +3575,7 @@
     resource_categories = {"basic-solid"},
     corpse = "big-remnants",
     collision_box = {{ -4.25, -3.75}, {4.45, 4.45}},
-    selection_box = {{ -4.35, -3.85}, {4.55, 3.65}},
+    selection_box = {{ -3.85, -3.85}, {3.65, 3.65}},
     working_sound =
     {
       sound =
@@ -3600,22 +3601,18 @@
       }
     },
     mining_speed = 7,
-	mining_drill_productivity = 10,
     energy_source =
     {
       type = "electric",
-      -- will produce this much * energy pollution units per tick
       emissions_per_minute = 20,
       usage_priority = "secondary-input"
     },
     energy_usage = "20MW",
-    mining_power = 6,
     resource_searching_radius = 4.3,
     vector_to_place_result = {0, -5},
     module_specification =
     {
-      module_slots = 2,
-      module_info_icon_shift = {0, 0.8}
+      module_slots = 4
     },
     allowed_effects = {"consumption", "speed", "productivity", "pollution"},
     radius_visualisation_picture =
@@ -3629,6 +3626,7 @@
     type = "mining-drill",
     name = "neural-miner",
     icon = "__Darkstar_utilities__/graphics/icons/laser-drill-icon1.png",
+    fast_replaceable_group = "mining-drill",
 	    icon_size = 32,
     flags = {"placeable-neutral", "player-creation"},
     minable = {mining_time = 1, result = "neural-miner"},
@@ -3661,18 +3659,15 @@
         run_mode = "forward",
       }
     },
-    mining_speed = 7,
-	mining_drill_productivity = 60,
+    mining_speed = 8,
     energy_source =
     {
       type = "electric",
-      -- will produce this much * energy pollution units per tick
       emissions_per_minute = 40,
       usage_priority = "secondary-input"
     },
     energy_usage = "50MW",
-    mining_power = 25,
-    resource_searching_radius = 5.3,
+    resource_searching_radius = 50,
     vector_to_place_result = {0.5, -1.5},
     module_specification =
     {
@@ -3691,6 +3686,7 @@
     type = "mining-drill",
     name = "laser-miner2",
     icon = "__Darkstar_utilities__/graphics/icons/laser-drill-icon2.png",
+    fast_replaceable_group = "mining-drill",
 	    icon_size = 32,
     flags = {"placeable-neutral", "player-creation"},
     minable = {mining_time = 1, result = "laser-miner2"},
@@ -3698,7 +3694,7 @@
     resource_categories = {"basic-solid"},
     corpse = "big-remnants",
     collision_box = {{ -4.25, -3.75}, {4.45, 4.45}},
-    selection_box = {{ -4.35, -3.85}, {4.55, 3.65}},
+    selection_box = {{ -3.85, -3.85}, {3.65, 3.65}},
     working_sound =
     {
       sound =
@@ -3723,22 +3719,19 @@
         run_mode = "forward-then-backward",
       }
     },
-    mining_speed = 7,
-    mining_drill_productivity = 20,
+    mining_speed = 14,
     energy_source =
     {
       type = "electric",
-      -- will produce this much * energy pollution units per tick
       emissions_per_minute = 40,
       usage_priority = "secondary-input"
     },
     energy_usage = "40MW",
-    mining_power = 14,
     resource_searching_radius = 4.3,
     vector_to_place_result = {0, -5},
     module_specification =
     {
-      module_slots = 4,
+      module_slots = 6,
       module_info_icon_shift = {0, 0.8}
     },
     radius_visualisation_picture =
@@ -3752,6 +3745,7 @@
     type = "mining-drill",
     name = "neural-miner-2",
     icon = "__Darkstar_utilities__/graphics/icons/laser-drill-icon1.png",
+    fast_replaceable_group = "mining-drill",
 	    icon_size = 32,
     flags = {"placeable-neutral", "player-creation"},
     minable = {mining_time = 1, result = "neural-miner-2"},
@@ -3784,18 +3778,15 @@
         run_mode = "forward",
       }
     },
-    mining_speed = 7,
-	mining_drill_productivity = 120,
+    mining_speed = 12,
     energy_source =
     {
       type = "electric",
-      -- will produce this much * energy pollution units per tick
       emissions_per_minute = 80,
       usage_priority = "secondary-input"
     },
     energy_usage = "100MW",
-    mining_power = 50,
-    resource_searching_radius = 20.3,
+    resource_searching_radius = 100,
     vector_to_place_result = {0.5, -1.5},
     module_specification =
     {
@@ -3814,6 +3805,7 @@
     type = "mining-drill",
     name = "laser-miner3",
     icon = "__Darkstar_utilities__/graphics/icons/laser-drill-icon3.png",
+    fast_replaceable_group = "mining-drill",
 	    icon_size = 32,
     flags = {"placeable-neutral", "player-creation"},
     minable = {mining_time = 1, result = "laser-miner3"},
@@ -3821,7 +3813,7 @@
     resource_categories = {"basic-solid"},
     corpse = "big-remnants",
     collision_box = {{ -4.25, -3.75}, {4.45, 4.45}},
-    selection_box = {{ -4.35, -3.85}, {4.55, 3.65}},
+    selection_box = {{ -3.85, -3.85}, {3.65, 3.65}},
     working_sound =
     {
       sound =
@@ -3846,22 +3838,19 @@
         run_mode = "forward-then-backward",
       }
     },
-    mining_speed = 7,
+    mining_speed = 21,
     energy_source =
     {
       type = "electric",
-      -- will produce this much * energy pollution units per tick
       emissions_per_minute = 60,
       usage_priority = "secondary-input"
     },
     energy_usage = "60MW",
-    mining_power = 24,
-	mining_drill_productivity = 30,
     resource_searching_radius = 4.3,
     vector_to_place_result = {0, -5},
     module_specification =
     {
-      module_slots = 6,
+      module_slots = 8,
       module_info_icon_shift = {0, 0.8}
     },
     radius_visualisation_picture =
@@ -3875,6 +3864,7 @@
     type = "mining-drill",
     name = "neural-miner-3",
     icon = "__Darkstar_utilities__/graphics/icons/laser-drill-icon1.png",
+    fast_replaceable_group = "mining-drill",
 	    icon_size = 32,
     flags = {"placeable-neutral", "player-creation"},
     minable = {mining_time = 1, result = "neural-miner-3"},
@@ -3907,18 +3897,15 @@
         run_mode = "forward",
       }
     },
-    mining_speed = 7,
-	mining_drill_productivity = 180,
+    mining_speed = 12,
     energy_source =
     {
       type = "electric",
-      -- will produce this much * energy pollution units per tick
       emissions_per_minute = 120,
       usage_priority = "secondary-input"
     },
     energy_usage = "200MW",
-    mining_power = 100,
-    resource_searching_radius = 40.1,
+    resource_searching_radius = 150,
     vector_to_place_result = {0.5, -1.5},
     module_specification =
     {
@@ -3937,6 +3924,7 @@
     type = "mining-drill",
     name = "laser-miner4",
     icon = "__Darkstar_utilities__/graphics/icons/laser-drill-icon4.png",
+    fast_replaceable_group = "mining-drill",
 	    icon_size = 32,
     flags = {"placeable-neutral", "player-creation"},
     minable = {mining_time = 1, result = "laser-miner4"},
@@ -3944,7 +3932,7 @@
     resource_categories = {"basic-solid"},
     corpse = "big-remnants",
     collision_box = {{ -4.25, -3.75}, {4.45, 4.45}},
-    selection_box = {{ -4.35, -3.85}, {4.55, 3.65}},
+    selection_box = {{ -3.85, -3.85}, {3.65, 3.65}},
     working_sound =
     {
       sound =
@@ -3969,22 +3957,19 @@
         run_mode = "forward-then-backward",
       }
     },
-    mining_speed = 7,
-	mining_drill_productivity_bonus = 70,
+    mining_speed = 28,
     energy_source =
     {
       type = "electric",
-      -- will produce this much * energy pollution units per tick
       emissions_per_minute = 80,
       usage_priority = "secondary-input"
     },
-    energy_usage = "100MW",
-    mining_power = 75,
+    energy_usage = "80MW",
     resource_searching_radius = 4.3,
     vector_to_place_result = {0, -5},
     module_specification =
     {
-      module_slots = 8,
+      module_slots = 10,
       module_info_icon_shift = {0, 0.8}
     },
     radius_visualisation_picture =
@@ -3998,6 +3983,7 @@
     type = "mining-drill",
     name = "neural-miner-4",
     icon = "__Darkstar_utilities__/graphics/icons/laser-drill-icon1.png",
+    fast_replaceable_group = "mining-drill",
 	    icon_size = 32,
     flags = {"placeable-neutral", "player-creation"},
     minable = {mining_time = 1, result = "neural-miner-4"},
@@ -4030,22 +4016,19 @@
         run_mode = "forward",
       }
     },
-    mining_speed = 7,
-	mining_drill_productivity = 940,
+    mining_speed = 12,
     energy_source =
     {
       type = "electric",
-      -- will produce this much * energy pollution units per tick
-      emissions_per_minute = 160,
+      emissions_per_minute = 300,
       usage_priority = "secondary-input"
     },
-    energy_usage = "250MW",
-    mining_power = 250,
-    resource_searching_radius = 80.3,
+    energy_usage = "400MW",
+    resource_searching_radius = 200.3,
     vector_to_place_result = {0.5, -1.5},
     module_specification =
     {
-      module_slots = 6,
+      module_slots = 8,
       module_info_icon_shift = {0, 0.8}
     },
     allowed_effects = {"consumption", "speed", "productivity", "pollution"},
