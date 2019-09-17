@@ -1,11 +1,11 @@
 {
   "name": "Darkstar_utilities",
-  "version": "0.18.5",
+  "version": "0.18.6",
   "factorio_version": "0.17",
   "title": "Darkstar Utilities",
   "author": "Nekomancer",
   "contact": "devdog08@vivaldi.net",
   "homepage": "https://devdog08.wixsite.com/darkstar", 
-  "description": "Hundreds of gameplay enhancing items. new versions of mostly all default game items, such as power armors, modules, laser drills,  30 solar panels, crafting speed updrages, quarries, teleportaion logistics, 4 tiers of beacons, 3 new roboports, Quarries, tons of weapons and more",
+  "description": "Propel yourself all the way from mining stone with your hands to ripping holes in reality. Darkstar Aims to extend the playtime of the game to well over twice the standard. With extra features like Quarries and Ore Probes for mining in lands with no ores, or launching rockets to mine deep space materials. With 604 currently added features!",
   "dependencies": ["base >= 0.17.0"]
 }
